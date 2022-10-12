@@ -1,0 +1,11 @@
+name: myStepExtension
+id: twitter-step
+type: step
+url: http://localhost:3002/remoteEntry.js
+module: './Button'
+scope: 'myStepExtension'
+constraints: 
+   -
+      mandatory: true
+      operation: CONTAINS_STEP_NAME
+      parameter: twitter-search-source      
