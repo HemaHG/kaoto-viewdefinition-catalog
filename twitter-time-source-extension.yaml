@@ -1,4 +1,4 @@
-name: myStepExtension
+name: Config
 id: twitter-step
 type: step
 url: http://localhost:3002/remoteEntry.js
